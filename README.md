@@ -11,6 +11,13 @@ Composer of code — and, allegedly, of symphonies.
 [![Zero dependencies](https://img.shields.io/badge/dependencies-none-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
 [![License: MIT](https://img.shields.io/badge/License-MIT-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica/blob/main/LICENSE)
 
+[![FIDELIO](https://img.shields.io/badge/FIDELIO-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/fidelio)
+[![DIABELLI](https://img.shields.io/badge/DIABELLI-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/diabelli)
+[![STACCATO](https://img.shields.io/badge/STACCATO-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/staccato)
+[![VELATA](https://img.shields.io/badge/VELATA-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/velata)
+[![APPASSIONATA](https://img.shields.io/badge/APPASSIONATA-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/appassionata)
+[![GROSSE FUGUE](https://img.shields.io/badge/GROSSE-FUGUE-v0.1.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/grosse-fuge)
+
 </div>
 
 ---
@@ -35,6 +42,33 @@ IX   Choral    Op. 125 transport security (DoH, ECH, CRLite)
 > `eroica new → launch → audit → check-ip` — create an isolated profile, open
 > the browser, verify it hasn't drifted, and confirm what IP the world sees.
 > Mozilla and Chromium families supported, plus optional Tor/SOCKS routing.
+
+## The opus set — Op. 23 to Op. 133
+
+All defensive, all **zero-dependency**, all strict-typed, all released:
+a small philharmonic of quiet privacy tooling.
+
+| Work | What it does |
+| --- | --- |
+| [FIDELIO](https://github.com/BeethovenDev/fidelio) | offline OPSEC self-audit — weighted privacy-risk scoring for accounts and habits |
+| [DIABELLI](https://github.com/BeethovenDev/diabelli) | file-integrity watch — SHA-256 fingerprints and a `.diabellignore` |
+| [STACCATO](https://github.com/BeethovenDev/staccato) | staged-diff secret scanner with entropy gates and allowlists |
+| [VELATA](https://github.com/BeethovenDev/velata) | metadata autopsy & strip for JPEG, PNG, WebP, TIFF and PDF |
+| [APPASSIONATA](https://github.com/BeethovenDev/appassionata) | passive TLS & HTTP transport-hygiene scan — one GET per host, 0-100 scores |
+| [GROSSE FUGUE](https://github.com/BeethovenDev/grosse-fuge) | PII redaction pipeline — masking and salted pseudonyms for text, CSV, JSON |
+
+```text
+FIDELIO  „Fidelio“ sings     OPSEC audit, weighted, reportable
+DIABELLI Variations           watch files, notice drift
+STACCATO detached strokes     diff is a field; secrets don't land
+VELATA   veiled              metadata ghosts removed from images
+APPASSIONATA sustained storm  how loudly does your transport talk?
+FUGUE    one theme, six voices PII fragments bound before release
+```
+
+Each tool exits non-zero exactly when it should, ships a human report and a
+`--json` machine mode, and takes a strict-typed, fully unit-tested core. No
+runtime dependencies, no telemetry, no phone-home.
 
 Other things on the bench: a few private hardening experiments (Windows),
 fed by the same philosophy — *boring is anonymous, and fail closed but say so.*
