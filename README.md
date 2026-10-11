@@ -6,7 +6,7 @@
 
 Composer of code — and, allegedly, of symphonies.
 
-[![EROICA v0.2.0](https://img.shields.io/badge/EROICA-v0.2.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
+[![EROICA v0.2.1](https://img.shields.io/badge/EROICA-v0.2.1-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-263238?style=flat&labelColor=0d1117)](https://www.python.org/)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-none-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
 [![License: MIT](https://img.shields.io/badge/License-MIT-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica/blob/main/LICENSE)
