@@ -6,7 +6,7 @@
 
 Composer of code — and, allegedly, of symphonies.
 
-[![EROICA v0.2.2](https://img.shields.io/badge/EROICA-v0.2.2-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
+[![EROICA v0.3.0](https://img.shields.io/badge/EROICA-v0.3.0-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-263238?style=flat&labelColor=0d1117)](https://www.python.org/)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-none-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica)
 [![License: MIT](https://img.shields.io/badge/License-MIT-263238?style=flat&labelColor=0d1117)](https://github.com/BeethovenDev/eroica/blob/main/LICENSE)
@@ -32,8 +32,9 @@ VI   Pastoral  Op. 68  storage hygiene
 IX   Choral    Op. 125 transport security (DoH, ECH, CRLite)
 ```
 
-> `eroica new → launch → audit` — create an isolated profile, open the browser,
-> and verify it hasn't drifted. Mozilla and Chromium families supported.
+> `eroica new → launch → audit → check-ip` — create an isolated profile, open
+> the browser, verify it hasn't drifted, and confirm what IP the world sees.
+> Mozilla and Chromium families supported, plus optional Tor/SOCKS routing.
 
 Other things on the bench: a few private hardening experiments (Windows),
 fed by the same philosophy — *boring is anonymous, and fail closed but say so.*
@@ -41,8 +42,8 @@ fed by the same philosophy — *boring is anonymous, and fail closed but say so.
 ## Stack
 
 `Python` · `PowerShell` · Firefox & Chromium hardening internals ·
-`user.js`/prefs · DNS-over-HTTPS & ECH · `argparse` · `pytest` · `mypy` ·
-`ruff` · GitHub Actions · Git
+`user.js`/prefs · DNS-over-HTTPS & ECH · SOCKS5 tunneling · `argparse` ·
+`pytest` · `mypy` · `ruff` · GitHub Actions · Git
 
 [![Type Checking](https://img.shields.io/badge/typing-strict-263238?style=flat&labelColor=0d1117)](https://mypy-lang.org/)
 [![Linting](https://img.shields.io/badge/linting-ruff-263238?style=flat&labelColor=0d1117)](https://docs.astral.sh/ruff/)
